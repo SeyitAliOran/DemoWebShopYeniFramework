@@ -28,10 +28,5 @@ public class LoginPage extends BasePage{
         loginButton.click();
         BrowserUtils.waitFor(2);
 
-
-
-
-
-
     }
 }
