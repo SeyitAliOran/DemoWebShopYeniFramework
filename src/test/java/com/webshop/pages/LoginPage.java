@@ -27,5 +27,7 @@ public class LoginPage extends BasePage{
         userpassword.sendKeys(ConfigurationReader.get("password"));
         loginButton.click();
         BrowserUtils.waitFor(2);
+
+
     }
 }
